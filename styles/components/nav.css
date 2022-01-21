@@ -1,0 +1,47 @@
+* {
+  background-color: black;
+}
+
+.test {
+  position: relative;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-rows: 1fr 48px;
+}
+
+.app-grid__scrollarea {
+  overflow-y: auto;
+}
+
+.filler {
+  color: aliceblue;
+  background-color: blueviolet;
+}
+
+.nav__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+  bottom: 0px;
+}
+
+.nav__icons {
+  justify-self: center;
+  align-self: center;
+}
+
+.nav__img {
+}
+
+.nav__img--plus {
+  background-color: cornflowerblue !important;
+  border-radius: 50%;
+  border-width: 3px;
+  border-color:darkgreen
+  padding: 10px;
+}
