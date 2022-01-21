@@ -1,0 +1,50 @@
+.test {
+  position: relative;
+}
+
+.app-grid {
+  display: grid;
+  grid-template-rows: 1fr 48px;
+}
+
+.app-grid__scrollarea {
+  overflow-y: auto;
+}
+
+.filler {
+  color: aliceblue; /*adjust according to needs, these colors are just to make it visible*/
+  background-color: blueviolet; /*adjust according to needs, these colors are just to make it visible*/
+  margin-bottom: 0;
+}
+
+.nav__grid {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: sticky;
+  bottom: 0px;
+  background-color: var(--color-black);
+}
+
+.nav__icons {
+  justify-self: center;
+  align-self: center;
+  filter: brightness(1);
+}
+
+.nav__img {
+  filter: brightness(0.4);
+}
+
+.nav--active {
+  filter: brightness(1) !important ;
+}
+
+.nav__img--plus {
+  background-color: var(--color-purple) !important;
+  border-radius: 50%;
+  padding: 10px;
+  filter: brightness(1) !important;
+}
