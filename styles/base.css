@@ -1,3 +1,6 @@
-/* body {
-  background: black;
-} */
+body {
+  background-color: var(--color-dark-gray);
+  color: var(--color-white);
+  margin: 1em;
+  padding: 0px;
+}
