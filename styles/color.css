@@ -1,6 +1,7 @@
 :root {
   --color-dark-gray: rgb(20, 20, 20);
   --color-gray: rgb(116, 116, 116);
+  --color-gray-transparent: rgba(255, 255, 255, 0.543);
   --color-white: white;
   --color-black: black;
   --color-purple: rgb(204, 15, 188);
