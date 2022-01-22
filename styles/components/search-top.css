@@ -1,0 +1,38 @@
+.search-top--input {
+  background: url(../../img/search-12-16.png) no-repeat scroll 95% 7px;
+  background-size: 30px;
+  width: 100%;
+  height: 48px;
+  background-color: rgba(226, 222, 222, 0.253);
+  border-radius: 15px;
+}
+
+.search-top--input::placeholder {
+  color: white;
+}
+
+.search-top--input,
+text {
+  color: white;
+}
+
+.search-top__container {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: 1;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.search-top__button {
+  background: none;
+  border: 1px solid white;
+  border-radius: 15px;
+  width: fit-content;
+  color: white;
+  padding: 8px 12px;
+}
+
+.search-top__button--active {
+  background: var(--color-blue);
+}
