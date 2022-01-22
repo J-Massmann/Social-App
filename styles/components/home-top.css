@@ -18,6 +18,10 @@
   overflow-x: auto;
 }
 
+.home-top__container--big::-webkit-scrollbar {
+  display: none;
+}
+
 .home-top__ignore-elements {
   position: relative;
   height: fit-content;
