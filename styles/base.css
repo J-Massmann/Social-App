@@ -1,6 +1,13 @@
 body {
   background-color: var(--color-dark-gray);
   color: var(--color-white);
-  margin: 1em;
   padding: 0px;
+  margin: 0;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-color: var(--color-gray-transparent);
+  width: 100%;
 }

@@ -9,7 +9,26 @@
   margin: 10px 0 10px 0;
 }
 
-.mlr-auto {
-  margin-left: auto;
-  margin-right: auto;
+.mlr-5 {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.mr-5 {
+  margin-right: 5%;
+}
+
+.ml-5 {
+  margin-left: 5%;
+}
+
+.width-90 {
+  width: 90%;
+}
+.mr-0 {
+  margin-right: 0;
+}
+
+.mt-10 {
+  margin-top: 10px;
 }
