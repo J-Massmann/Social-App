@@ -23,7 +23,7 @@
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   margin: 0;
-  color: rgba(255, 255, 255, 0.543);
+  color: var(--color-gray-transparent);
   font-size: 0.9rem;
 }
 
@@ -73,5 +73,4 @@
 
 .post__img--large {
   border-radius: 30px;
-  margin: 10px 0 10px 0;
 }
