@@ -1,16 +1,3 @@
-.test {
-  position: relative;
-}
-
-.app-grid {
-  display: grid;
-  grid-template-rows: 1fr 48px;
-}
-
-.app-grid__scrollarea {
-  overflow-y: auto;
-}
-
 .filler {
   color: aliceblue; /*adjust according to needs, these colors are just to make it visible*/
   background-color: blueviolet; /*adjust according to needs, these colors are just to make it visible*/
